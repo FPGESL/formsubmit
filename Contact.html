@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styleCT.css">
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body class="Contact.html">
+        <section class="showcase">
+    <header>
+        <h2 class="logo">FPGESL</h2>
+    <div class="toggle"></div>
+    </header>
+     
+    <div class="container">
+        <form action="https://formsubmit.co/el/tecero" method="POST">
+        <h1>Contact Us </h1>
+        <input type="text" id="fisrtName" placeholder="First Name" required>
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="FavGame" placeholder="Favorite Game?" required>
+        <h4>Type Your Message Here...</h4>
+        <textarea required></textarea>
+        <input type="submit" value="Send" id="button">
+        
+        </form>
+            </div>
+    
+    </section>
+    <div class="menu">
+        <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../Timelines/RoadMap.html">RoadMap</a></li>
+    <li><a href="Timelines/Responsivetable.html">Responsivetable</a></li>
+    <li><a href="../ContactMe/Contact.html">Contact</a></li>
+    <!-- <li><a href="../ContactMe/newsblogs.html">News/Blogs</a></li>
+    <li><a href="../Timelines/OurMission.html">Our Mission</a></li>
+    <li><a href="../ContactMe/services.html">Our Services</a></li>
+    <li><a href="../Timelines/RoadMap.html">RoadMap</a></li>
+    <li><a href="../Timelines/Verticaltimeline.html">Timeline</a></li>
+    <li><a href="../ContactMe/aboutUS.html">About Us</a></li>
+    <li><a href="../ContactMe/Contact.html">Contact</a></li>
+    <li><a href="../ContactMe/Credits.html">Credits</a></li> -->
+    </ul>
+    </div>
+    <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+    
+    menuToggle.addEventListener('click', () =>{
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+    })
+    </script>
+
+
+</body>
+</html>
+
+<!-- DONE NEEDS NAV AND WHERE CONTECT LIKKE EMIAL WILL GOO -->
